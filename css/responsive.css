@@ -90,7 +90,64 @@
         padding-top: 50px;
         width: 80%;
     }    
-    
+} 
 
-     
+/* STATEGIC PLAN */
+
+@media screen and (min-width: 768px){
+    .strategia>h3 {
+        font-size: 3rem;
+    }
 }
+
+@media screen and (min-width:992px) {
+    .strategic-cont{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        width: 70%;
+    }
+
+    .strategia{
+        width: 40%;
+        margin: 0;
+    }
+
+   
+
+    .development{
+        margin-top: 6rem;
+        margin-left: 2rem;
+        width: 45%;
+        height: 30%;
+        padding: 10px 10px 15px 10px;
+    }
+
+    .strategia>h3{
+        font-size: 1.4rem;
+    }
+
+    .strategia>p{
+        font-size: 0.8rem;
+       
+       
+    }
+
+    .development>img{
+        width: 50%;
+    }
+
+    .development>h3{
+        font-size: 1rem;
+      
+    }
+
+     .development>p{
+      font-size: 0.8rem;
+      font-weight: bold;
+     }
+}
+     
+
