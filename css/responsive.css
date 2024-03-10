@@ -1,0 +1,23 @@
+/* HEADER */
+@media screen and (min-width: 768px) {
+    .cont-header{
+        width: 90%;
+        margin: 0 auto;
+}
+}
+
+@media screen and (min-width: 992px) {
+    .cont-header{
+        width: 80%;
+    }
+
+    .hamburger{
+        display: none;
+    }
+    
+    
+    .list-header {
+        display: block;
+    }    
+    
+}
